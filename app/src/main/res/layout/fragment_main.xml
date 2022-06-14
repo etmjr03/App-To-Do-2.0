@@ -8,4 +8,10 @@
     android:layout_height="match_parent"
     tools:context=".MainFragment">
 
+    <ListView
+        android:id="@+id/todo_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="56dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
